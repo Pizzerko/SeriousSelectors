@@ -127,6 +127,16 @@ img:hover,div > div > div:hover{
   border: solid yellow thin;
 }
 
+li:nth-child(odd) {
+  color:grey;
+}
+li{
+  font-size: 100%;
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
 /* ## Extensions
 Now that your board is looking great and you've become a css selector master, here are some extensions to keep improving your page! 
 1. Add and change style rules so that the background of the board alternates between three different colors. (For example, a white cell, then a black cell, then a purple cell repeated across the entire board).
